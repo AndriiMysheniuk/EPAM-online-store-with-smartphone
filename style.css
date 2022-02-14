@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+img{
+    width: 260px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.line_top {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+    color: coral;
+}
+
+.EN{
+    text-align: left;
+    font-size: 24px;
+    background-image: linear-gradient(to left, coral, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cart{
+    text-align: right;
+    font-size: 21px;
+}
+
+.button_price_name{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn_name{
+    font-size: 16px;
+    padding: 7px 15px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.btn_price{
+    font-size: 16px;
+    padding: 7px 15px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.all{
+    width: 100%;
+    height: 1200px;
+}
+
+.item_div{
+    float: left;
+    margin: 20px;
+    height: 430px;
+}
+
+.item_name{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    height: 45px;
+    margin-left: 30px;
+    font-weight: bold;
+
+}
+
+.btn_buy{
+    font-size: 16px;
+    width: 80px;
+    background-color: coral;
+    border: none;
+    color: white;
+    border-radius: 12px;
+
+}
+
+.price_item{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.line_bottom {
+    float: bottom;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+
+a{
+    color: coral;
+    margin-left: 10px;
+}
+
+.end{
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+
