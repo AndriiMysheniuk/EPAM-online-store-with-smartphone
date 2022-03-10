@@ -26,7 +26,6 @@ body {
 
 .cart {
     display: flex;
-    width: 90px;
     margin: 10px 150px 10px 0;
 }
 
@@ -35,12 +34,14 @@ body {
     font-size: 22px;
     margin: 0;
     color: coral;
+    align-items: center;
 }
 
 .cart-number {
     font-size: 22px;
     margin: 0 0 0 7px;
     color: white;
+    align-items: center;
 }
 
 .btn-wrapper {
@@ -96,7 +97,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
-    height: 45px;
     margin-left: 30px;
     font-weight: bold;
 }
@@ -141,5 +141,110 @@ body {
     margin: 7px 0 3px 10px;
 }
 
+@media screen and (max-width: 576px){
+   .header {
+       height: 70px;
+   }
 
+    .store-name {
+        margin: 20px 0 0 25px;
+    }
 
+   .cart {
+       margin: 20px 25px 0 0;
+   }
+
+    .btn-wrapper {
+        margin: 50px 0 0 0;
+    }
+
+   .btn-name {
+       margin-left: 35px;
+       font-size: 18px;
+       width: 90px;
+       height: 60px;
+   }
+
+   .btn-price {
+       margin-right: 35px;
+       font-size: 18px;
+       width: 90px;
+       height: 60px;
+   }
+
+   .item {
+       margin: 40px 0 80px 0;
+   }
+
+    .item-img {
+        width: 100vw;
+    }
+
+    .item-name {
+        font-size: 22px;
+    }
+
+    .btn-buy {
+        font-size: 23px;
+        width: 115px;
+        height: 65px;
+    }
+
+    .item-price {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .header {
+        height: 70px;
+    }
+
+    .store-name {
+        margin: 20px 0 0 25px;
+    }
+
+    .cart {
+        margin: 20px 25px 0 0;
+    }
+
+    .btn-wrapper {
+        margin: 50px 0 0 0;
+    }
+
+    .btn-name {
+        margin-left: 35px;
+        font-size: 18px;
+        width: 145px;
+        height: 50px;
+    }
+
+    .btn-price {
+        margin-right: 35px;
+        font-size: 18px;
+        width: 145px;
+        height: 50px;
+    }
+
+    .item {
+        margin: 40px 0 80px 0;
+    }
+
+    .item-img {
+        width: 50vw;
+    }
+
+    .item-name {
+        font-size: 22px;
+    }
+
+    .btn-buy {
+        font-size: 23px;
+        width: 115px;
+        height: 65px;
+    }
+
+    .item-price {
+        font-size: 28px;
+    }
+}
